@@ -68,10 +68,10 @@ const nextPokemon = async () => {
       <div class="buscaPokemon">
         <label>
           <input id="inp" class="inputSearch" placeholder="Nome ou número" required>
-        </label>
-        
+        </label>        
         <button class="botaovermelho" @click="searchPokemon"></button>
       </div>
+      
       <div class="botao">
         <button class="botoes botaoPrev" @click = "prevPokemon">anterior << </button>
         <button class="botoes botaoNext" @click = "nextPokemon">>> proximo</button>

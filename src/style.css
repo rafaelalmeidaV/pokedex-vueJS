@@ -14,8 +14,9 @@ main{
 
 body{
   text-align: center;
-  background: linear-gradient(to bottom, rgb(74, 206, 195), #fff);
   min-height: 100vh;
+  background-image: url("./images/fundo.jpg");
+  background-size: cover;
 }
 
 .pokedex{
