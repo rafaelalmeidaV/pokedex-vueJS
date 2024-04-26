@@ -43,7 +43,7 @@ const prevPokemon = async () => {
 
 const nextPokemon = async () => {
   const id = data.value.id + 1
-  if (id > 898) return
+  if (id > 999) return
   try {
     const resp = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`)
     data.value = resp.data
